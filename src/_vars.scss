@@ -1,0 +1,4 @@
+@use 'sass:color';
+
+$colorBase: black;  
+$colorAlt: color.scale($colorBase, $lightness: 85%);
